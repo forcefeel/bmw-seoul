@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+	    	android:background="#FF880000"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/hello"
+    />
+    
+    
+    <ImageView 
+		android:id="@+id/profile_screen_picture_bg"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:layout_marginTop="169px"
+		android:layout_centerHorizontal="true"
+		android:src="@drawable/bmw4_02">
+	</ImageView>
+	
+		<FrameLayout android:id="@+id/busRecent"
+	    	android:background="#FF880000"
+        	android:layout_width="fill_parent" 	
+        	android:layout_height="fill_parent"
+        	android:visibility="visible"
+        	android:layout_weight="1" 
+			android:src="@drawable/bmw4_03">
+			
+    	</FrameLayout>
+	                  
+	
+	
+	<ImageButton 
+		android:id="@+id/button1"
+		android:src="@drawable/bmw4_06" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:layout_marginTop="85px"
+		android:layout_marginLeft="66px">
+	</ImageButton>
+	<ImageButton 
+		android:id="@+id/button2"
+		android:src="@drawable/bmw4_07" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:layout_marginTop="85px"
+		android:layout_marginLeft="66px">
+	</ImageButton>
+	<ImageButton 
+		android:id="@+id/button3"
+		android:src="@drawable/bmw4_08" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:layout_marginTop="85px"
+		android:layout_marginLeft="66px">
+	</ImageButton>
+	<ImageButton 
+		android:id="@+id/button4"
+		android:src="@drawable/bmw4_09" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:layout_marginTop="85px"
+		android:layout_marginLeft="66px">
+	</ImageButton>
+    
+    
+    
+</LinearLayout>

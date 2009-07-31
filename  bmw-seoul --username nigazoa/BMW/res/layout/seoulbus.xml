@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent">
+    
+    <!-- The frame layout is here since we will be showing either
+    the empty view or the list view.  -->
+	<LinearLayout
+		android:orientation="horizontal"
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content"
+        android:background="#FFFFFFFF">
+
+	<Button android:id="@+id/busRecentButton"
+    	android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:text="최근정보"/>
+	<Button android:id="@+id/busMyBusStopButton"
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:text="내 정류장"/>
+	<Button android:id="@+id/busMyBusButton"
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:text="내 버스"/>
+	<Button android:id="@+id/busSearchButton"
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:text="검색하기"/>
+    </LinearLayout>
+    
+    
+			<LinearLayout android:id="@+id/contents"
+	    	android:background="#FFFFFFFF"
+        	android:layout_width="fill_parent" 	
+        	android:layout_height="0dip"
+        	android:visibility="visible"
+        	android:layout_weight="1" 
+        	>
+    	</LinearLayout>
+
+	    
+	<!-- 
+    <LinearLayout
+		android:orientation="horizontal"
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content">
+	<Button android:id="@+id/add"
+    	android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:text="hihi"/>
+	<Button android:id="@+id/clear"
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:text="hihi"/>
+    </LinearLayout>
+    -->
+</LinearLayout>
