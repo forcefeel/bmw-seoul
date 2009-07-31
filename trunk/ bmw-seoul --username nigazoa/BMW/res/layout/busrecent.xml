@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout	xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:id="@+id/busRecent"
+   	android:layout_width="fill_parent" 	
+   	android:layout_height="fill_parent"
+   	android:visibility="visible"
+   	android:layout_weight="1" 
+	    	android:background="#FF880000"
+        android:layout_marginTop="0px"
+        android:layout_marginLeft="0px" >
+   	
+		<TextView android:id="@+id/emptysa"
+		    android:layout_width="fill_parent" 
+    		android:layout_height="fill_parent"
+    		android:text="nonote qpoidkqwpkd qpowkd poqkwdpo"/>
+</RelativeLayout>
