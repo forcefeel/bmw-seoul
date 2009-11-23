@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout	xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:id="@+id/busStopArrival"
+   	android:layout_width="fill_parent" 	
+   	android:layout_height="fill_parent"
+   	android:visibility="visible"
+   	android:layout_weight="1" >
+	<TextView 
+			android:id="@+id/main_title"
+			android:layout_width="fill_parent"
+			android:layout_height="25px"
+			android:textColor="#FFFFFF"
+			android:textSize="18px"
+			android:gravity="center_horizontal"
+			android:layout_centerHorizontal="true"
+	></TextView>
+	<RelativeLayout
+			android:id="@+id/searchLayout"
+			android:background="#FFFFFFFF"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:layout_below="@+id/main_title"
+	>
+	<TextSwitcher android:id="@+id/switcher"
+			android:textColor="#000000"
+			android:paddingTop="20px"
+			android:paddingBottom="20px"
+			android:layout_below="@+id/mainTitle"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content" />
+		<LinearLayout
+			android:id="@+id/listitemarrival"
+			android:orientation="vertical"
+        	android:layout_width="fill_parent" 
+        	android:layout_height="wrap_content"
+			android:layout_below="@+id/switcher"
+        	
+        	>
+        </LinearLayout>
+	</RelativeLayout>
+</RelativeLayout>

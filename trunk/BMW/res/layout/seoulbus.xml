@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+	<LinearLayout
+		android:orientation="horizontal"
+        android:layout_width="fill_parent" 
+		android:gravity="center"
+		android:paddingTop="1px"
+		android:background="@drawable/button_bg4"
+        android:layout_height="53px">
+	<Button android:id="@+id/busMyBusStopButton"
+        android:layout_width="75px" 
+        android:layout_height="50px"
+        android:text="처음"/>
+	<Button android:id="@+id/busLineSearchButton" 
+        android:layout_width="75px" 
+        android:layout_height="50px"
+        android:text="노선\n검색"/>
+	<Button android:id="@+id/busStopSearchButton"
+        android:layout_width="75px" 
+        android:layout_height="50px"
+        android:text="정류장\n검색"/>
+	<Button android:id="@+id/busRouteSearchButton"
+        android:layout_width="75px" 
+        android:layout_height="50px"
+        android:text="버스\n추적"/>
+    </LinearLayout>
+    
+			<LinearLayout android:id="@+id/contents"
+        	android:layout_width="fill_parent" 	
+        	android:layout_height="0dip"
+        	android:visibility="visible"
+        	android:layout_weight="1" 
+        	>
+    	</LinearLayout>
+</LinearLayout>

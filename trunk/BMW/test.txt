@@ -1,0 +1,2 @@
+12235 긴줄의 정류장`
+09-25 19:09:34.102: VERBOSE/myra(2029): fdl download uRL http://210.96.13.82/bms/web/realtime_bus/bus_stations.jsp?routeId=4877400&routeType=1&flashHeight=700&routeName=1234513220

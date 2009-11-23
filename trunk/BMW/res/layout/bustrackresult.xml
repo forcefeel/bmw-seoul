@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout	xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:id="@+id/top_layout"
+   	android:layout_width="fill_parent" 	
+   	android:layout_height="fill_parent"
+   	android:visibility="visible"
+   	android:layout_weight="1" >
+	<TextView 
+			android:id="@+id/main_title"
+			android:layout_width="fill_parent"
+			android:layout_height="25px"
+			android:textColor="#FFFFFF"
+			android:textSize="18px"
+			android:gravity="center_horizontal"
+			android:text="버스 추적"
+			android:layout_centerHorizontal="true"
+	></TextView>
+		<LinearLayout
+			android:id="@+id/main_content"
+			android:background="#FFFFFFFF"
+			android:orientation="vertical"
+        	android:layout_width="fill_parent" 
+        	android:layout_height="fill_parent"
+			android:layout_below="@+id/main_title"
+        	>
+        </LinearLayout>
+</RelativeLayout>
