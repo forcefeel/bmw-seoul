@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout	xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:id="@+id/busRecent"
+   	android:layout_width="fill_parent" 	
+   	android:layout_height="fill_parent"
+   	android:visibility="visible"
+   	android:layout_weight="1">
+   		<TextView android:id="@+id/main_title"
+			android:textSize="18sp"
+    		android:textColor="#FFFFFF"
+			android:gravity="center_horizontal"
+    		android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"/>
+   		<ListView 
+   			android:id="@+id/list"
+   			android:divider="@drawable/divider_horizontal_bright"
+			android:layout_width="fill_parent" 
+		   	android:layout_height="fill_parent"
+        	android:cacheColorHint="#FFFFFF"
+        	android:drawSelectorOnTop="false"
+        	android:layout_below="@+id/main_title"
+			android:background="#FFFFFFFF"
+       	/>
+</RelativeLayout>
+

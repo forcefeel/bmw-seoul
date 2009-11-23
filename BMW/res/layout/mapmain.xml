@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+    <!-- The frame layout is here since we will be showing either
+    the empty view or the list view.  -->
+	<LinearLayout
+		android:orientation="horizontal"
+		android:background="@drawable/button_bg3"
+		android:gravity="center"
+		android:paddingTop="1px"
+        android:layout_width="fill_parent" 
+        android:layout_height="53px">
+	<ToggleButton android:id="@+id/first_button"
+        android:layout_width="75px" 
+        android:layout_height="50px"
+        android:textOff="내 위치"
+        android:textOn="내 위치"/>
+	<ToggleButton android:id="@+id/second_button"
+        android:layout_width="75px" 
+        android:layout_height="50px"
+        android:textOff="경로추적"
+        android:textOn="경로추적"/>`
+	<ToggleButton android:id="@+id/third_button"
+        android:layout_width="75px" 
+        android:layout_height="50px"
+        android:textSize="12px"
+        android:textOff="정류장찾기"
+        android:textOn="정류장찾기"/>
+	<ToggleButton android:id="@+id/fourth_button"
+        android:layout_width="75px" 
+        android:layout_height="50px"
+        android:textOff="나침반"
+        android:textOn="나침반"/>
+    </LinearLayout>
+    
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainlayout"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    
+    
+		<com.google.android.maps.MapView
+	        android:id="@+id/mapview"
+    	    android:layout_width="fill_parent"
+        	android:layout_height="fill_parent"
+        	android:enabled="true"
+        	android:clickable="true"
+        	android:apiKey="0238bI_IatHeaXfGD0pxHx4d7AdUSDPCVmhYdCQ"
+        />
+    <!--
+    		android:apiKey="0238bI_IatHeaXfGD0pxHx4d7AdUSDPCVmhYdCQ" HOME
+        	android:apiKey="0238bI_IatHeJquIM7UEOLgLsFF4Z7fH1lTPbOw" SCHOOL
+	-->
+</RelativeLayout>
+</LinearLayout>
